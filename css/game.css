@@ -1,0 +1,27 @@
+.background    { background: rgb(52, 66, 251);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url("../img/lava.png"); }
+.wall          { background-image: url("../img/wall.png");  }
+
+.actor  { position: absolute;  }
+.power  { background-image: url("../img/power.png"); }
+.player { background-image: url("../img/mm.png");}
+.portal { background-image: url("../img/portal.png");}
+.hazard { background-image: url("../img/hazard.png");}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost {
+  background: rgb(0,0,0);}
+  
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+  
+}
